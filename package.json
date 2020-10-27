@@ -1,7 +1,7 @@
 {
   "name": "wsj.vue-observe-visibility",
   "description": "Detect when an element is becoming visible or hidden on the page. ",
-  "version": "0.5.0",
+  "version": "0.5.2",
   "author": {
     "name": "weishijun",
     "email": "weishijun14@qq.com"
@@ -16,12 +16,12 @@
   "module": "dist/wsj.vue-observe-visibility.esm.js",
   "unpkg": "dist/wsj.vue-observe-visibility.min.js",
   "scripts": {
-    "dev": "nodemon --exec 'npm run build' --watch src",
-    "build": "npm run build:browser && npm run build:es && npm run build:umd",
+    "dev": "nodemon --exec 'yarn run build' --watch src",
+    "build": "yarn run build:browser && yarn run build:es && yarn run build:umd",
     "build:browser": "rollup --config build/rollup.config.browser.js",
     "build:es": "rollup --config build/rollup.config.es.js",
     "build:umd": "rollup --config build/rollup.config.umd.js",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "yarn run build",
     "serve": "serve --open ./dist"
   },
   "repository": {

@@ -4,8 +4,8 @@ import { terser } from 'rollup-plugin-terser'
 const config = Object.assign({}, base, {
 	output: {
 		exports: 'named',
-		name: 'VueObserveVisibility',
-		file: 'dist/vue-observe-visibility.min.js',
+		name: 'wsjVueObserveVisibility',
+		file: 'dist/wsj.vue-observe-visibility.min.js',
 		format: 'iife',
 	},
 })
