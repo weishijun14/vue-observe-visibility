@@ -1,8 +1,8 @@
 import ObserveVisibility from './directives/observe-visibility'
 
 // Install the components
-export function install (Vue) {
-	Vue.directive('observe-visibility', ObserveVisibility)
+export function install (app) {
+	app.directive('observe-visibility', ObserveVisibility)
 	/* -- Add more components here -- */
 }
 
